@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bundle_User_Story__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Lookup to Bundle (Parent) User Story</description>
+    <externalId>false</externalId>
+    <label>Bundle User Story</label>
+    <referenceTo>copado__User_Story__c</referenceTo>
+    <relationshipLabel>Bundled User Stories</relationshipLabel>
+    <relationshipName>Bundle_User_Stories</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

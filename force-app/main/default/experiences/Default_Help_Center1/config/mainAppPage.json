@@ -1,0 +1,11 @@
+{
+  "cmsSettings" : { },
+  "currentThemeId" : "0617bad8-f0c2-4a3c-a549-754156be20b1",
+  "headMarkup" : null,
+  "id" : "62afeca3-ae9f-418b-9fc0-17a91f037141",
+  "isLockerServiceEnabled" : true,
+  "isRelaxedCSPLevel" : false,
+  "label" : "main",
+  "templateName" : "Service Setup Help Center Template",
+  "type" : "appPage"
+}

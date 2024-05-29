@@ -1,0 +1,46 @@
+<apex:page standardController="copado__User_Story__c" recordSetVar="bundleUserStoryList" extensions="CUSB_UserStoryBundleController"
+    lightningStylesheets="true">
+
+    <body>
+        <apex:sectionHeader id="sectionHeader" title="Copado Change Management" subtitle="User Story Bundle Selection" />
+        <apex:form id="theForm" styleClass="copado-lightning-container">
+            <apex:pageMessages id="theMessages" />
+            <apex:pageBlock id="pb" mode="edit">
+                <apex:pageBlockButtons id="pbButtons" location="top">
+                    <apex:commandButton id="btnCancel" value="Cancel" action="{!cancel}" />
+                    <apex:commandButton id="btnAssign" value="Create Bundle" action="{!assign}" reRender="theMessages" rendered="{!AND(allMetadata.size>0, userStories.size>0,IsTheUserStorySelectionConsistant)}"
+                    />
+                </apex:pageBlockButtons>
+                <apex:pageBlockSection id="bundledetails" title="Bundle Details">
+                    <apex:inputField value="{!bundleUs.copado__User_Story_Title__c}" required="true" />
+                    <apex:inputField value="{!bundleUs.copado__Release__c}" />
+                    <apex:inputField value="{!bundleUs.copado__Project__c}" required="true" />
+                    <apex:inputField value="{!bundleUs.copado__Sprint__c}" />
+                    <apex:inputField value="{!bundleUs.copado__Org_Credential__c}" required="true" />
+                    <apex:inputField value="{!bundleUs.copado__Base_Branch__c}" />
+                    <apex:inputField value="{!bundleUs.copado__Status__c}" />
+                </apex:pageBlockSection>
+                <apex:pageBlockSection id="metadatapanel" title="Metadata and User Story selections" columns="2">
+                    <apex:outputPanel layout="none" rendered="{!AND(allMetadata != null, allMetadata.size<1000)}">
+                        <apex:dataList value="{!allMetadata}" var="m">
+                            <apex:outputText value="{!m.t}.{!m.n}" />
+                        </apex:dataList>
+                    </apex:outputPanel>
+                    <apex:outputPanel layout="none" rendered="{!AND(allMetadata != null, allMetadata.size>=1000)}">
+                        Metadata Collection exceeded.
+                    </apex:outputPanel>
+                    <apex:outputPanel layout="none" rendered="{!AND(userStories != null, userStories.size<1000)}">
+                        <apex:dataList value="{!userStories}" var="us">
+                            <apex:outputLink value="{!URLFOR($Action.copado__User_Story__c.View,us.Id)}" target="_blank">
+                                <apex:outputText value="{!us.Name}" />
+                            </apex:outputLink>
+                        </apex:dataList>
+                    </apex:outputPanel>
+                    <apex:outputPanel layout="none" rendered="{!AND(userStories != null, userStories.size>=1000)}">
+                        User Stories Selection exceeded.
+                    </apex:outputPanel>
+                </apex:pageBlockSection>
+            </apex:pageBlock>
+        </apex:form>
+    </body>
+</apex:page>

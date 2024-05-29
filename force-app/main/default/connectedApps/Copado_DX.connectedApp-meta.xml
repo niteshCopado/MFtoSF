@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>nnatha@copado.com</contactEmail>
+    <label>Copado DX</label>
+    <oauthConfig>
+        <callbackUrl>http://localhost:1717/OauthRedirect</callbackUrl>
+        <certificate>MIIC8TCCAdkCFH4r03qB428PF2CUPGZ1o8pcq/apMA0GCSqGSIb3DQEBCwUAMDQxCzAJBgNVBAYTAlVTMQ8wDQYDVQQKDAZDb3BhZG8xFDASBgNVBAMMC3d3dy5jb3BhLmRvMCAXDTIxMTAxOTAyMTI1OFoYDzIxMzEwNDI2MDIxMjU4WjA0MQswCQYDVQQGEwJVUzEPMA0GA1UECgwGQ29wYWRvMRQwEgYDVQQDDAt3d3cuY29wYS5kbzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANkcNk2ZKnQpixWfP7Qj18SQkrv5ZMnHthKoccF0uN/qjjtJQyhw2YmvYIz/ZCd66eOmkdfUsZAUhZWLeC9d6eSLW/q2uav6BuDUrzO2TnghFJij4uocuJVQRSI6zt1CTY1yiYaecMpsaKLeOeiG8RQnnZR4tYtub9iOhrZ1Xk/99crsvenu2v427et2w2C1331XgEa0WJFhYOpYS3asJkbV4xTpXpLqwOtEyTySDYZtL3hRiBzXwrURp7zdmaECGRYSetTgDFVoKrZjk0yADhdAJ/zDwMa3QoLtfNb2RMkiRwSNPggIutCvlvw0EdvxJDy5ter9owznZer2g5JTCssCAwEAATANBgkqhkiG9w0BAQsFAAOCAQEAF+Cay3lk2OeQOSpLpT0k8CjwoA1/z8byz9LgoHsi9or1HJf82pFEI15ZqG5JkcBYwXMXgPc3CxfSWP5PxZFMYfrfYptwZUKNLWBcrL0Tq6xIv+ag2jFH2T0UVi+cAOVJfti30EpN4Hkr4c1FSzyQDA1QA4ZP+bldv9tzg2HKUeppSDGIBciOCOHNVzUiM67wDzxKLO8rXmDETWcnarFialkW+ZKAzTX+lEZZJQWJCcjDko3kQtMoU3Ntb1XqHJPKifPMWN+hH6DW9QGtpFRTqAAWnK+4Xw5MSQLsuHJf5nm4BSloUI6vHYX7ZbtR/GSTRso26jpebBjQSv19SdE1LQ==</certificate>
+        <consumerKey>dedf6447ef2e4d63b0ad0437919d09b07bb664c7349248599264f79e541a9289</consumerKey>
+        <isAdminApproved>true</isAdminApproved>
+        <isClientCredentialEnabled>false</isClientCredentialEnabled>
+        <isCodeCredentialEnabled>false</isCodeCredentialEnabled>
+        <isCodeCredentialPostOnly>false</isCodeCredentialPostOnly>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isNamedUserJwtEnabled>false</isNamedUserJwtEnabled>
+        <isPkceRequired>false</isPkceRequired>
+        <isRefreshTokenRotationEnabled>false</isRefreshTokenRotationEnabled>
+        <isSecretRequiredForRefreshToken>false</isSecretRequiredForRefreshToken>
+        <isSecretRequiredForTokenExchange>false</isSecretRequiredForTokenExchange>
+        <isTokenExchangeEnabled>false</isTokenExchangeEnabled>
+        <scopes>Api</scopes>
+        <scopes>Web</scopes>
+        <scopes>RefreshToken</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>ENFORCE</ipRelaxation>
+        <isTokenExchangeFlowEnabled>false</isTokenExchangeFlowEnabled>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+    <profileName>System Administrator</profileName>
+    <profileName>1 - ES Sales User (Sales Manager)</profileName>
+</ConnectedApp>

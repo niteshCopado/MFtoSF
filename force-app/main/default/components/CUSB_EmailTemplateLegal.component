@@ -1,0 +1,18 @@
+<apex:component access="global">
+    <div style="margin: 30px auto; color: #272525; font-size: 9px;">
+        <div style="padding-bottom: 15px;">
+            <apex:outputText escape="false" value="© Copyright {0, number, 0000} Copado Solutions S.L. All rights reserved.">
+                <apex:param value="{!YEAR(TODAY())}" />
+            </apex:outputText>
+        </div>
+        <div>
+            This email and any files transmitted with it are confidential and intended solely for the use of the individual or entity
+            to whom they are addressed. If you have received this email in error, please notify the sender and permanently
+            delete the email and any files attached. Copado is committed to ensuring the security and protection of any personal
+            information that we process, and to provide a compliant and consistent approach to data protection as required
+            by applicable law. If you have any questions related to Copado’s compliance, please contact our Data Protection
+            Officer at privacy@copado.com. For additional information about ways Copado may process your data check our Privacy
+            section at https://copado.com/privacy-policy/
+        </div>
+    </div>
+</apex:component>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Region__c</fullName>
+    <description>The region this account is located in for the API calls to target the correct region URL endpoint. For example app1, hipaa1, emea1, emea4, app9, etc.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The region this account is located in for the API calls to target the correct region URL endpoint. For example app1, hipaa1, emea1, emea4, app9, etc.</inlineHelpText>
+    <label>Region</label>
+    <length>255</length>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

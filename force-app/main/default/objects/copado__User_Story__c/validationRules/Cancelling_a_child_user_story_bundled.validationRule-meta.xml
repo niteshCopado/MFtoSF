@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cancelling_a_child_user_story_bundled</fullName>
+    <active>true</active>
+    <description>Cancelling a child user story is not allowed.</description>
+    <errorConditionFormula>NOT( ISBLANK( Bundle_User_Story__c ) )  &amp;&amp;   ISPICKVAL(copado__Status__c, &apos;Cancelled&apos;)</errorConditionFormula>
+    <errorMessage>The user story status cannot be changed to Cancelled since it is part of a bundle and the bundle will continue moving the changes committed in this user story. You need to cancel the parent user story bundle first in order to cancel this user story.</errorMessage>
+</ValidationRule>

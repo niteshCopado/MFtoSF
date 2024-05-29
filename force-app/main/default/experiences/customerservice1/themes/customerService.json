@@ -1,0 +1,158 @@
+{
+  "activeBrandingSetId" : "6523455c-062c-49c3-961f-3fc94fae48a8",
+  "customCSS" : "",
+  "developerName" : "service",
+  "id" : "e4fa44d0-1378-4dd2-ad15-8de2e6efd62a",
+  "label" : "Customer Service",
+  "layouts" : {
+    "Inner" : "5b33e2aa-e6e0-43f3-ba9b-924aa2408a73",
+    "Login" : "6f7388bf-d195-4581-84b6-a07f50afe7b2",
+    "ServiceNotAvailable" : "ba198aa9-f1e7-4fe0-b944-2ab10f405832"
+  },
+  "type" : "theme",
+  "views" : [ {
+    "componentAttributes" : { },
+    "componentName" : "salesforceIdentity:loginBody2",
+    "id" : "6f7388bf-d195-4581-84b6-a07f50afe7b2",
+    "label" : "Login",
+    "regions" : [ {
+      "id" : "80a6d928-399b-4bb2-9938-f1cad954e010",
+      "regionName" : "header",
+      "type" : "region"
+    }, {
+      "id" : "69e15cd3-8344-4079-9bb8-906648204c78",
+      "regionName" : "content",
+      "type" : "region"
+    }, {
+      "id" : "5cc9b600-590a-4869-bbdd-d7fdad3e3797",
+      "regionName" : "footer",
+      "type" : "region"
+    } ],
+    "type" : "view"
+  }, {
+    "componentAttributes" : {
+      "IsDefaultHeaderHidden" : false,
+      "IsDefaultNotificationsHidden" : false,
+      "fixedPageWidth" : 1140,
+      "isPageWidthFixed" : true
+    },
+    "componentName" : "siteforce:serviceBody",
+    "id" : "5b33e2aa-e6e0-43f3-ba9b-924aa2408a73",
+    "label" : "Default",
+    "regions" : [ {
+      "id" : "720fb78d-af2f-4111-a9fa-52a7e8e7f01d",
+      "regionName" : "customHeader",
+      "type" : "region"
+    }, {
+      "components" : [ {
+        "componentAttributes" : {
+          "contineActionLabel" : "Ask the community",
+          "continueLabel" : "Don’t see it?",
+          "crossObjectTypeaheadApiNames" : [ {
+            "isPublic" : true,
+            "name" : "KnowledgeArticleVersion"
+          }, {
+            "isPublic" : true,
+            "name" : "FeedItem"
+          }, {
+            "isPublic" : false,
+            "name" : "Case"
+          }, {
+            "isPublic" : true,
+            "name" : "CollaborationGroup"
+          } ],
+          "disableCrossObjectRelevance" : false,
+          "enableAutocomplete" : true,
+          "maxNumberOfResults" : 6,
+          "placeholder" : "Search...",
+          "questionResultsFirst" : false,
+          "showContinueAction" : true,
+          "showDetails" : false,
+          "showTopics" : true,
+          "signInActionLabel" : "Sign in to ask the community"
+        },
+        "componentName" : "forceCommunity:searchBox",
+        "id" : "60580f87-a8e7-48f3-a1c3-90ca99b27606",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "d9ec34d3-73af-4f2b-aa1f-bda087149172",
+      "regionName" : "search",
+      "type" : "region"
+    }, {
+      "components" : [ {
+        "componentAttributes" : {
+          "accountManagementLabel" : "Account Management",
+          "communityBuilderLabel" : "Experience Builder",
+          "communitySetupLabel" : "Salesforce Setup",
+          "contactSupportLabel" : "Contact Support",
+          "filterName" : "MyCases",
+          "homeLabel" : "Home",
+          "includeContactSupport" : true,
+          "includeMessages" : false,
+          "loginLabel" : "Login",
+          "logoutLabel" : "Logout",
+          "myAccountLabel" : "My Account",
+          "showAccountManagement" : true,
+          "showUserSettings" : true,
+          "userSettingsLabel" : "My Settings",
+          "viewProfileLabel" : "My Profile"
+        },
+        "componentName" : "selfService:userProfileMenu",
+        "id" : "4881dce2-ae87-4502-ae31-aa8a054f88b4",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "24eb76a9-a17c-451c-86c1-9fb49eb3b896",
+      "regionName" : "profileMenu",
+      "type" : "region"
+    }, {
+      "components" : [ {
+        "componentAttributes" : {
+          "NavigationMenuEditorRefresh" : "",
+          "hideAppLauncher" : false,
+          "hideHomeText" : false
+        },
+        "componentName" : "forceCommunity:globalNavigation",
+        "id" : "3a058dc9-6514-43c8-a8c9-8685a181de56",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "224a4600-0517-4c79-8641-f6e048fa8986",
+      "regionName" : "navBar",
+      "type" : "region"
+    }, {
+      "id" : "a05d6f6e-11f3-49ad-b1d1-deafe221f1a8",
+      "regionName" : "customRegion",
+      "type" : "region"
+    }, {
+      "id" : "02b70898-8ace-464b-99e2-2a07bdd923cd",
+      "regionName" : "footer",
+      "type" : "region"
+    } ],
+    "type" : "view"
+  }, {
+    "componentAttributes" : {
+      "fixedPageWidth" : 1170,
+      "headerBgColor" : "rgba(0, 0, 0, 0)",
+      "isHeaderPinned" : false,
+      "isHeroUnderHeader" : false,
+      "isPageWidthFixed" : true,
+      "showHeader" : true,
+      "showHero" : true
+    },
+    "componentName" : "siteforce:themeLayoutStarter",
+    "id" : "ba198aa9-f1e7-4fe0-b944-2ab10f405832",
+    "label" : "ServiceNotAvailable",
+    "regions" : [ {
+      "id" : "b69d1841-ba8f-42ba-bc2f-7cc81f37850a",
+      "regionName" : "themeHeader",
+      "type" : "region"
+    }, {
+      "id" : "4f6e38fe-9e00-498e-a7e8-afdb419e8e4f",
+      "regionName" : "themeFooter",
+      "type" : "region"
+    } ],
+    "type" : "view"
+  } ]
+}

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>CUSB_INSUFFICIENT_ACCESS_RIGHTS</fullName>
+        <categories>CUSB</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>CUSB_INSUFFICIENT_ACCESS_RIGHTS</shortDescription>
+        <value>Insufficient access rights to</value>
+    </labels>
+    <labels>
+        <fullName>CUSB_NOT_PARSED_METADATA</fullName>
+        <categories>CUSB</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>CUSB_NOT_PARSED_METADATA</shortDescription>
+        <value>Could not parse Metadata Item:</value>
+    </labels>
+    <labels>
+        <fullName>Copado_Test_Class_User</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Copado_Test_Class_User</shortDescription>
+        <value>nnatha@copado.com.support</value>
+    </labels>
+</CustomLabels>

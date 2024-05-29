@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <baseObject>copado__Promoted_User_Story__c</baseObject>
+    <category>other</category>
+    <deployed>true</deployed>
+    <description>Test case 00094976</description>
+    <label>Promotion with Stories</label>
+    <sections>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Id</field>
+            <table>copado__Promoted_User_Story__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>true</checkedByDefault>
+            <field>Name</field>
+            <table>copado__Promoted_User_Story__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>CreatedDate</field>
+            <table>copado__Promoted_User_Story__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>CreatedBy</field>
+            <table>copado__Promoted_User_Story__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>LastModifiedDate</field>
+            <table>copado__Promoted_User_Story__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>LastModifiedBy</field>
+            <table>copado__Promoted_User_Story__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>copado__User_Story__c</field>
+            <table>copado__Promoted_User_Story__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>copado__Promotion__c</field>
+            <table>copado__Promoted_User_Story__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>copado__Status__c</field>
+            <table>copado__Promoted_User_Story__c</table>
+        </columns>
+        <masterLabel>Promoted User Stories</masterLabel>
+    </sections>
+</ReportType>

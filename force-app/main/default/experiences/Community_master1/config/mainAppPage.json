@@ -1,0 +1,11 @@
+{
+  "cmsSettings" : { },
+  "currentThemeId" : "fda00c52-5662-455f-a078-59d885bea54c",
+  "headMarkup" : null,
+  "id" : "17a2b466-c727-4412-8282-36c3f56be70d",
+  "isLockerServiceEnabled" : true,
+  "isRelaxedCSPLevel" : false,
+  "label" : "main",
+  "templateName" : "Manufacturing Template",
+  "type" : "appPage"
+}
